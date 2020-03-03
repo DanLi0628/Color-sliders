@@ -6,5 +6,5 @@ function setup(){
 }
 
 function draw(){
-    background(slider1.value());
+    background(slider1.value(0,0));
 }
